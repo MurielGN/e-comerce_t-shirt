@@ -1,0 +1,69 @@
+#logo{
+  width: 300px;
+  float:left;
+}
+
+#cabecera{
+  border: 0px;
+}
+#cabecera td{
+  border: 0px;
+}
+
+#titulo{
+  width: 300px;
+  float:left;
+  color: #01B1EA;
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-family: 'Open Sans', Helvetica, Arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 2px 1px #222222;
+  transition: all 300ms;
+}
+
+#logo a:hover{
+  text-shadow: 0px 2px 1px #222222, 0px 0px 4px #01B1EA;
+}
+
+#datosEmpresa{
+  width: 200px;
+  float:right;
+  text-align: right;
+}
+hr{
+  clear: both;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid black;
+  text-align: left;
+}
+
+#pedido{
+  background-color: hsla(0, 7%, 69%, 0.3);
+}
+
+.sombreado{
+  background-color: hsla(0, 7%, 69%, 0.8);
+}
+
+.total th{
+  text-align: right;
+}
+
+.total td{
+  text-align: right;
+}
+
+#datC{
+  width: 50%;
+  max-width: 80%;
+  border: 1px solid black;
+}
