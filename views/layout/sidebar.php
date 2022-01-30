@@ -1,7 +1,7 @@
 <!-- BARRA LATERAL -->
 <aside id="lateral">
 
-	<div id="carrito" class="block_aside">
+	<!-- <div id="carrito" class="block_aside">
 		<h3>Mi carrito</h3>
 		<ul>
 			<?php $stats = Utils::statsCarrito(); ?>
@@ -9,9 +9,9 @@
 			<li><a href="<?=base_url?>carrito/index">Total: <?=$stats['total']?> $</a></li>
 			<li><a href="<?=base_url?>carrito/index">Ver el carrito</a></li>
 		</ul>
-	</div>
+	</div> -->
 	
-	<div id="login" class="block_aside">
+	<!-- <div id="login" class="block_aside">
 		
 		<?php if(!isset($_SESSION['identity'])): ?>
 			<h3>Entrar a la web</h3>
@@ -42,7 +42,7 @@
 				<li><a href="<?=base_url?>usuario/registro">Registrate aqui</a></li>
 			<?php endif; ?> 
 		</ul>
-	</div>
+	</div> -->
 
 </aside>
 
